@@ -4,9 +4,10 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.Testing.Activities": "[22.4.3]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -82,6 +83,24 @@
         "testCaseId": "ce1967b6-265b-4f95-84b1-de15c14cf480",
         "testCaseType": "TestCase",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d4f5e381-0214-4d19-90fd-fbabe53d8b4e",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCaseVerifyOrCreateOutputReport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "972c9d1b-07d4-458a-898c-240b78117ff9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Excel_TestCaseVerifyInputData.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b0475b12-33da-422f-97f2-bda117cf09dc",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Outlook_TestCaseGetEmail.xaml"
       }
     ],
     "modernBehavior": false
